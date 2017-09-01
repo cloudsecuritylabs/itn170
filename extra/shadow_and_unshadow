@@ -1,0 +1,17 @@
+less /etc/passwd
+# the command below will destry shadow feature 
+# and you will be able to view the password with 
+# /etc/passwd file. NOT RECOMMENDED
+sudo pwunconv
+
+# we can also do the same thing for the group file
+suod grpunconv
+
+
+# To convert the system to use shadow file again, use
+# the following commands
+
+sudo pwconv
+sudo grpconv
+
+
