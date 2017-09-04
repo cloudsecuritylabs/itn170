@@ -1,0 +1,20 @@
+
+; <<>> DiG 9.10.3-P4-Ubuntu <<>> ANY www.ankanbasu.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 27950
+;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.ankanbasu.com.		IN	ANY
+
+;; ANSWER SECTION:
+www.ankanbasu.com.	3584	IN	A	192.195.77.34
+
+;; Query time: 33 msec
+;; SERVER: 127.0.1.1#53(127.0.1.1)
+;; WHEN: Mon Sep 04 00:46:46 EDT 2017
+;; MSG SIZE  rcvd: 62
+
