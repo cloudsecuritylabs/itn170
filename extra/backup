@@ -1,0 +1,31 @@
+# tar is used to create backups
+tar cvf /root.tar /root /home
+
+#c = create
+#v = verbose
+#f =file
+
+
+tar czvf /root.tar /root /home
+
+#z = use compression
+
+
+# cpio - not much used very much
+
+# dd - convert and copy!!!!
+dd if=/dev/sda1 of=/sda1.img
+
+# gzip
+gzip /root.tar
+
+#gunzip
+gunzip filename
+
+#bzip
+bzip2 filename
+
+#bunzip2
+bunzip2 filename
+
+
