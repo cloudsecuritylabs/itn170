@@ -1,0 +1,3 @@
+# to delete after search, we can use either the xarg or the backtick
+find ./ -name "*~" | xargs -d "\n" rm
+rm `find ./ -name "*~"`
