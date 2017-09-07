@@ -1,0 +1,5 @@
+1. create a user in the host to manage.
+2. on master, user ssh-keygen to generate rsa key
+3. use command ssh-copy-id user@hostname to transfer key to the host
+
+for more information visit http://www.serverlab.ca/tutorials/linux/administration-linux/passwordless-ssh-logons-on-centos-6-using-rsa-authentication-keys/
