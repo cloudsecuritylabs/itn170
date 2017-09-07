@@ -1,3 +1,8 @@
 # to delete after search, we can use either the xarg or the backtick
 find ./ -name "*~" | xargs -d "\n" rm
 rm `find ./ -name "*~"`
+
+find . -name "*.java" | xargs grep "Stock"
+
+# delete temporarily files using rm command
+find /tmp -name "*.tmp" | xargs rm

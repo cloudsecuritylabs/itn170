@@ -1,0 +1,8 @@
+Eli Linux series video3: basic linux commands:
+-man
+-tasksel (ubuntu only, not available in centos)
+-sudo
+-apt-get install, remove, upgrade
+-/etc/initd httpd start, stop, restart
+- change directory
+
