@@ -1,0 +1,10 @@
+# look for kernel modules
+lsmod
+
+#install new module
+sudo modprobe ex2
+
+#remove a module
+sudo modprobe -r ex2
+
+
