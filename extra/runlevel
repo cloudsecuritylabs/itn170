@@ -1,2 +1,13 @@
 who -r
 runlevel
+init 5 # changes the runlevel to 5
+init 1 # change runlevel to single user mode
+init 6 # reboots the machine
+init 0 # halts the system
+
+we can also use telinit instead of init.
+
+systemctl get-default
+systemctl set-default multiuser.target # this will change the default runlevel for systems that uses systemctl
+systemctl isolate runlevel5.target
+systemctl poweroff # poweroff the machine
